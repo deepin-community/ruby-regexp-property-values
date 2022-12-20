@@ -1,0 +1,30 @@
+ruby-regexp-property-values (0.3.4-deepin1) unstable; urgency=medium
+
+  * Rebuild
+
+ -- Deepin Packages Builder <packages@deepin.org>  Fri, 11 Nov 2022 18:05:02 +0800
+
+ruby-regexp-property-values (0.3.4-2) unstable; urgency=medium
+
+  [ Utkarsh Gupta ]
+  * Add salsa-ci.yml
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Sruthi Chandran ]
+  * Update minimum version of gem2deb to 1.0
+
+  [ Pirate Praveen ]
+  * Bump Standards-Version to 4.5.0 (no changes needed)
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 16 Jul 2020 20:19:31 +0530
+
+ruby-regexp-property-values (0.3.4-1) unstable; urgency=medium
+
+  * Initial release (Closes: #913568)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 12 Nov 2018 17:45:24 +0530

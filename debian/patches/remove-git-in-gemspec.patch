@@ -1,0 +1,13 @@
+--- a/regexp_property_values.gemspec
++++ b/regexp_property_values.gemspec
+@@ -15,9 +15,7 @@
+   s.homepage      = 'https://github.com/janosch-x/regexp_property_values'
+   s.license       = 'MIT'
+ 
+-  s.files         = `git ls-files -z`.split("\x0").reject do |f|
+-    f.match(%r{^(test|spec|features)/})
+-  end
++  s.files         = Dir.glob("**/*").select {|v| v !~ /^debian/}
+   s.require_paths = ['lib']
+ 
+   s.extensions = %w[ext/regexp_property_values/extconf.rb]

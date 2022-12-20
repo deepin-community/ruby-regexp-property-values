@@ -1,0 +1,25 @@
+Source: ruby-regexp-property-values
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper-compat (= 12),
+               gem2deb (>= 1.0)
+Standards-Version: 4.5.0
+Vcs-Git: https://salsa.debian.org/ruby-team/ruby-regexp-property-values.git
+Vcs-Browser: https://salsa.debian.org/ruby-team/ruby-regexp-property-values
+Homepage: https://github.com/janosch-x/regexp_property_values
+Testsuite: autopkgtest-pkg-ruby
+XS-Ruby-Versions: all
+Rules-Requires-Root: no
+
+Package: ruby-regexp-property-values
+Architecture: any
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Inspect property values supported by Ruby's regex engine
+ This small library lets you see which property values are supported by the
+ regular expression engine of the Ruby version you are running, and what they
+ match.
